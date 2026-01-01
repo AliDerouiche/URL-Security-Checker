@@ -123,7 +123,7 @@ st.markdown("""
     .result-safe {
         background: linear-gradient(135deg, #11998e 0%, #38ef7d 100%);
         color: white;
-        padding: 2rem;
+        padding: 1rem;
         border-radius: 15px;
         text-align: center;
         margin: 1rem 0;
@@ -133,7 +133,7 @@ st.markdown("""
     .result-danger {
         background: linear-gradient(135deg, #eb3349 0%, #f45c43 100%);
         color: white;
-        padding: 2rem;
+        padding: 1rem;
         border-radius: 15px;
         text-align: center;
         margin: 1rem 0;
@@ -143,7 +143,7 @@ st.markdown("""
     .result-warning {
         background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);
         color: white;
-        padding: 2rem;
+        padding: 1rem;
         border-radius: 15px;
         text-align: center;
         margin: 1rem 0;
@@ -151,7 +151,7 @@ st.markdown("""
     }
     
     .result-icon {
-        font-size: 4rem;
+        font-size: 2rem;
         margin-bottom: 1rem;
     }
     
@@ -442,4 +442,5 @@ st.markdown("""
     <p>🛡️ Developed by <strong>Ali Derouiche</strong> | Cybersecurity Engineering Student</p>
     <p>© 2026 URL Security Checker | All Rights Reserved</p>
 </div>
+
 """, unsafe_allow_html=True)
