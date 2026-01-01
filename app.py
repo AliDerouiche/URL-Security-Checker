@@ -9,7 +9,7 @@ import pandas as pd
 # 1. PAGE CONFIG
 # =========================================================
 st.set_page_config(
-    page_title="🔐 URL Security Checker | Ali Derouiche",
+    page_title="SecuLink Model",
     page_icon="🛡️",
     layout="wide",
     initial_sidebar_state="expanded"
@@ -347,7 +347,7 @@ with st.sidebar:
 # =========================================================
 # 7. MAIN CONTENT
 # =========================================================
-st.title("🔐 URL Security Checker")
+st.title("🔐 SecuLink Model (URL Security Checker)")
 st.markdown("<p class='subtitle'>Protect yourself from phishing, malware, and compromised websites with AI-powered analysis</p>", unsafe_allow_html=True)
 
 # Input Section
@@ -440,7 +440,8 @@ st.markdown("---")
 st.markdown("""
 <div class='footer'>
     <p>🛡️ Developed by <strong>Ali Derouiche</strong> | Cybersecurity Engineering Student</p>
-    <p>© 2026 URL Security Checker | All Rights Reserved</p>
+    <p>© 2026 SecuLink | All Rights Reserved</p>
 </div>
 
 """, unsafe_allow_html=True)
+
